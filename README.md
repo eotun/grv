@@ -1,16 +1,16 @@
-Theme—GravCms
+Implementation of [Aoics](https://github.com/eotun/cs) for [GravCMS](https://github.com/getgrav/grav). 
 
-Implementation of A,[Aoics](https://github.com/eotun) for [GravCMS](https://github.com/getgrav/grav)
+> Represent `~/user/pages/`-folder in nested-hierarchial folder-structure; Gather relative information, navigation & custom appearance based on taxonomy `q: []`.
+
+# instal
 
 > **Warning**
 > WiP—TbR
 
-# instal
-
-`
+```
 cd ~~/Grav/user/themes/
 git clone ~ agrvoi
-`
+```
 
 « /user/config/system.yaml
 ```
@@ -20,7 +20,7 @@ git clone ~ agrvoi
 
 « /user/config/site.yaml
 ```
-+ taxonomies: [q,c]
++ taxonomies: [q]
 ```
 
 « /user/pages
@@ -30,4 +30,4 @@ git clone ~ agrvoi
 
 > Pages should be named `a.md` (fallback for `default.md`)—call for base layout `~/user/themes/aoi/templates/a.html.twig`.
 
-Use standard fields `title` & `menu`; customs `d` for description, `m` for metainfo, `e` for errors, `t` for tips.
+fields: standard `title`&`menu`;+ customs `d`—description, `m`—metainfo, `e`—errors, `t`—tips.
