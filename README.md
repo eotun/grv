@@ -1,4 +1,4 @@
-Implementation of [Aoics](https://github.com/eotun/cs) for [GravCMS](https://github.com/getgrav/grav). 
+Implementation of A,[Acosi](https://github.com/eotun/cs) for [GravCMS](https://github.com/getgrav/grav). 
 
 > Represent `~/user/pages/`-folder in nested-hierarchial folder-structure; Gather relative information, navigation & custom appearance based on taxonomy `q: []`.
 
@@ -9,13 +9,14 @@ Implementation of [Aoics](https://github.com/eotun/cs) for [GravCMS](https://git
 
 ```
 cd ~~/Grav/user/themes/
-git clone ~ agrvoi
+git clone ~ agroiv
 ```
 
 « /user/config/system.yaml
 ```
-+ pages: {theme: agrvoi}
++ pages: {theme: agroiv}
 + home: {alias: /a}
++ assets: {css_pipeline: true}
 ```
 
 « /user/config/site.yaml
